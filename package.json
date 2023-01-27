@@ -4,15 +4,17 @@
   "description": "",
   "main": "handler.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "sls offline"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "serverless-offline": "^6.9.0"
+    "serverless-offline": "^12.0.4"
   },
   "dependencies": {
-    "aws-sdk": "^2.894.0"
+    "aws-sdk": "^2.894.0",
+    "serverless": "^3.27.0"
   }
 }
